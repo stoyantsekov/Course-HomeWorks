@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyFirstProgram
+namespace Math2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Aloha People :)");
-            Console.WriteLine("Pres any key to go to the Beach");
-            Console.ReadKey();    
+            Console.WriteLine("Write any word you want");
+             string x = (Console.ReadLine());
+             string y = "Hello";     
+            Console.WriteLine(x==y);
         }
     }
 }
