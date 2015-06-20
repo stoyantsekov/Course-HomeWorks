@@ -11,7 +11,7 @@ namespace Math8
         static void Main(string[] args)
         {
             Console.WriteLine("Pick a word? -     ");
-              string a = Console.ReadLine();
+            string a = Console.ReadLine();
             string b = a.Substring(a.Length - 1, 1);
             Console.WriteLine(b);
         }
