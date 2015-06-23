@@ -12,8 +12,11 @@ namespace MassivTask
         {
             int[] masSym = { 1, 2, 3, 4, 3, 2, 1 };
             bool sym = true;
-            for (int i = 0; i < masSym.Length - i - 1; ++i)
-                sym = sym & masSym[i] == masSym[masSym.Length - i - 1];
+            for
+                (int i = 0; i < masSym.Length - i - 1; ++i)
+            {
+                sym = sym && masSym[i] == masSym[masSym.Length - i - 1];
+            }
             Console.WriteLine("Symetric?  {0}", sym);
             Console.ReadKey();
         }
