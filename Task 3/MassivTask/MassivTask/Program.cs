@@ -10,10 +10,10 @@ namespace MassivTask
     {
         static void Main(string[] args)
         {
-            int[] masSym = { 1, 2, 3, 4, 3, 2, 1 };
+            int[] masSym = new int[]{ 1, 2, 3, 4, 3, 2, 1 };
             bool sym = true;
             for
-                (int i = 0; i < masSym.Length - i - 1; ++i)
+                (int i = 0; i < masSym.Length - i - 1; i++)
             {
                 sym = sym && masSym[i] == masSym[masSym.Length - i - 1];
             }
