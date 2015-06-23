@@ -11,7 +11,6 @@ namespace LectureTask
         static void Main(string[] args)
         {
 
-            //Not ready yet...
             Console.WriteLine("Enter a number");
             int counter = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter a second number");
