@@ -12,20 +12,23 @@ namespace LectureTask
         {
 
             //Not ready yet...
-            int first = Console.Read();
             Console.WriteLine("Enter a number");
             int counter = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter a second number");
             int seccounter = int.Parse(Console.ReadLine());
             int result = counter + seccounter;
-
-            do
+            if (counter > 0 && seccounter > 0)
+                do
+                {
+                    Console.Write(result);
+                    Console.WriteLine();
+                    break;
+                }
+                while (true);
+            else
             {
-
-                Console.Write(result);
-                Console.WriteLine();
+                Console.WriteLine("Invalid number");
             }
-            while (true);
         }
     }
 }

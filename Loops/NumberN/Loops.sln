@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divideby7or11", "Divideby7o
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LectureTask", "LectureTask\LectureTask.csproj", "{6F323650-4AE5-410D-B19A-2DCD9C68B245}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dividedby7or11v2", "Dividedby7or11v2\Dividedby7or11v2.csproj", "{0B48CD76-1731-4304-AD58-EDFC5137ABB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6F323650-4AE5-410D-B19A-2DCD9C68B245}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F323650-4AE5-410D-B19A-2DCD9C68B245}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F323650-4AE5-410D-B19A-2DCD9C68B245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B48CD76-1731-4304-AD58-EDFC5137ABB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B48CD76-1731-4304-AD58-EDFC5137ABB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B48CD76-1731-4304-AD58-EDFC5137ABB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B48CD76-1731-4304-AD58-EDFC5137ABB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
