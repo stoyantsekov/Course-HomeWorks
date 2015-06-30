@@ -17,7 +17,7 @@ namespace MassivTask
             {
                 sym = sym && masSym[i] == masSym[masSym.Length - i - 1];
             }
-            Console.WriteLine("Symetric?  {0}", sym);
+            Console.WriteLine("Is symetric?{0}", sym);
             Console.ReadKey();
         }
     }
