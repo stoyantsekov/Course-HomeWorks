@@ -11,7 +11,7 @@ namespace MyFirstProgram
         static void Main(string[] args)
         {
             Console.WriteLine("Aloha People :-)");
-            Console.WriteLine("Pres any key to go to the Beach");
+            Console.WriteLine("Pres any key to go to the beach");
             Console.ReadKey();    
         }
     }
