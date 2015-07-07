@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1MinMax", "Task1MinMax\Task1MinMax.csproj", "{3839892B-ECD3-4D60-BF91-5A47B05A0D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2FindElements", "Task2FindElements\Task2FindElements.csproj", "{1C816144-258F-4172-9A1F-6C61AD8A9489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3MaxIndex", "Task3MaxIndex\Task3MaxIndex.csproj", "{62A644B4-1E55-45C2-A496-60B27A3A502D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3839892B-ECD3-4D60-BF91-5A47B05A0D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3839892B-ECD3-4D60-BF91-5A47B05A0D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3839892B-ECD3-4D60-BF91-5A47B05A0D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3839892B-ECD3-4D60-BF91-5A47B05A0D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C816144-258F-4172-9A1F-6C61AD8A9489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C816144-258F-4172-9A1F-6C61AD8A9489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C816144-258F-4172-9A1F-6C61AD8A9489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C816144-258F-4172-9A1F-6C61AD8A9489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A644B4-1E55-45C2-A496-60B27A3A502D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A644B4-1E55-45C2-A496-60B27A3A502D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A644B4-1E55-45C2-A496-60B27A3A502D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A644B4-1E55-45C2-A496-60B27A3A502D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
